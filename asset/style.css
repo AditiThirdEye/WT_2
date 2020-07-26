@@ -10,7 +10,7 @@ body {
     padding: 0;
     font-family: 'Comic Sans MS', Serif;
     background-image: url("img2.jpg");
-    background-repeat: repeat-x;
+    background-repeat: repeat-y;
 }
 
 p, label {
