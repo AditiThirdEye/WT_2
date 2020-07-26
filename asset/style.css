@@ -13,6 +13,10 @@ body {
     background-repeat: repeat-x;
 }
 
+p, label {
+  color: #b3b3b3;
+}
+
 h1 {
     color: white;
     font-weight: 800;
