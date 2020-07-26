@@ -9,6 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Comic Sans MS', Serif;
+    width: 1000px;
     background-image: url("img2.jpg");
     background-repeat: repeat-y;
 }
