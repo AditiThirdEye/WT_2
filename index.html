@@ -11,47 +11,126 @@
 <body>
     <div class="header">
         <h2>
-            Oscars After Party!
+            Oscars After Party !
         </h2>
     </div>
     <div class="menu">
-        <a href="./index.html"><button class="btn-3">Home</button></a>
-        <a href="./reg.html"><button class="btn-3">Register</button></a>
-        <a href="./sreg.html"><button class="btn-3">Show Registerations</button></a>
+        <button class="btn-3" onclick="home()">Home</button>
+        <button class="btn-3" onclick="sign()">Register</button>
+        <button class="btn-3" id="update" onclick="showregis()">Show Registerations</button>
     </div>
+    <div class="home">
+      <div class="main">
+          <h1>Oscars after party</h1>
+          <p>The Oscars is typically the crescendo in the awards season calendar – but the glamour and glitz doesn’t end there. While the stars filed by in a spectrum of placid, pink looks on the Oscars 2020 red carpet, the after parties invited a more ritzy, risqué approach. Think Charlize Theron switching from a floor-filling black Dior gown to a gold fringed dress by the house, or Florence Pugh switching out of teal frills to a sequined column dress, also by Louis Vuitton.
 
-    <div class="main">
-        <h1>Oscars after party</h1>
-        <p>The Oscars is typically the crescendo in the awards season calendar – but the glamour and glitz doesn’t end there. While the stars filed by in a spectrum of placid, pink looks on the Oscars 2020 red carpet, the after parties invited a more ritzy, risqué approach. Think Charlize Theron switching from a floor-filling black Dior gown to a gold fringed dress by the house, or Florence Pugh switching out of teal frills to a sequined column dress, also by Louis Vuitton.
+            Setting the sat-nav to the hottest party in Hollywood, Vanity Fair’s Oscar party, and on to Elton John’s event in support of the AIDS Foundation, see all the famous famous from inside the events, here.
 
-          Setting the sat-nav to the hottest party in Hollywood, Vanity Fair’s Oscar party, and on to Elton John’s event in support of the AIDS Foundation, see all the famous famous from inside the events, here.
+            Meanwhile, a few tables over from Pitt and Leonardo DiCaprio, an eyewitness spotted Rita Wilson and Tom Hanks sitting at a table with the actor's son, Colin. The after-party was filled with relatives as DiCaprio spent some of the evening with his dad, George DiCaprio, while drinking a glass of white wine and chatting.
 
-          Meanwhile, a few tables over from Pitt and Leonardo DiCaprio, an eyewitness spotted Rita Wilson and Tom Hanks sitting at a table with the actor's son, Colin. The after-party was filled with relatives as DiCaprio spent some of the evening with his dad, George DiCaprio, while drinking a glass of white wine and chatting.
+            Singer Andy Grammer and his pregnant wife, Aijia Lise, entered the party together and she was not feeling her footwear. "These heels!" Lise was heard exclaiming. She was later seen enjoying some well deserved dessert.
 
-          Singer Andy Grammer and his pregnant wife, Aijia Lise, entered the party together and she was not feeling her footwear. "These heels!" Lise was heard exclaiming. She was later seen enjoying some well deserved dessert.
+            G-Eazy had a flirty night out. The rapper was spotted hanging in the corner of the smokers room, and appeared to be flirting with a woman wearing a sparkly black dress. As they went to say goodbye, the two kissed one another on the cheek.
 
-          G-Eazy had a flirty night out. The rapper was spotted hanging in the corner of the smokers room, and appeared to be flirting with a woman wearing a sparkly black dress. As they went to say goodbye, the two kissed one another on the cheek.
+            Chef Wayne Elias of Crumble Catering told ET planning for the event began six months ago. One thousand guests were served a five-course meal using 5,000 plates, 500 pounds of beef, 600 pounds of branzino and 350 pounds of zuchhini. 175 servers presented the meals to the evening’s guests. This was the sixteenth year Crumble Catering has created the dining experience for the annual event.
+          </p>
+      </div>
+      <div class="main">
+          <h1>Intresting events !</h1>
+          <p>Inside the event, an eyewitness spotted Aisha Tyler, who was wearing flats, kissing and hugging pal Colton Haynes, who looked dapper in a Dior suit. Haynes' date for the evening was his actress friend, Ally Maki.
 
-          Chef Wayne Elias of Crumble Catering told ET planning for the event began six months ago. One thousand guests were served a five-course meal using 5,000 plates, 500 pounds of beef, 600 pounds of branzino and 350 pounds of zuchhini. 175 servers presented the meals to the evening’s guests. This was the sixteenth year Crumble Catering has created the dining experience for the annual event.
-        </p>
+            After turning heads at the Oscars, Billy Porter changed into a bright purple Christian Siriano off-the-shoulder top with feather details and a train so lengthy it required a handler. He paired the look with elbow-length purple gloves, a matching wide-brimmed hat, fitted lilac pants and a black purse that read.
+
+            Porter was later spotted sipping a cocktail at the bar, and posed with two fans who came up for photos.
+
+          </p>
+      </div>
+      <div class="main">
+          <h1>Where is it ?</h1>
+          <p>At my house ! Inside the event, an eyewitness spotted Aisha Tyler, who was wearing flats, kissing and hugging pal Colton Haynes, who looked dapper in a Dior suit. Haynes' date for the evening was his actress friend, Ally Maki.
+
+            After turning heads at the Oscars, Billy Porter changed into a bright purple Christian Siriano off-the-shoulder top with feather details and a train so lengthy it required a handler. He paired the look with elbow-length purple gloves, a matching wide-brimmed hat, fitted lilac pants and a black purse that read.
+
+            Porter was later spotted sipping a cocktail at the bar, and posed with two fans who came up for photos.
+      </div>
     </div>
-    <div class="main">
-        <h1>Intresting events !</h1>
-        <p>Inside the event, an eyewitness spotted Aisha Tyler, who was wearing flats, kissing and hugging pal Colton Haynes, who looked dapper in a Dior suit. Haynes' date for the evening was his actress friend, Ally Maki.
+    <div class="signup">
+        <h1>Join The Party</h1>
 
-          After turning heads at the Oscars, Billy Porter changed into a bright purple Christian Siriano off-the-shoulder top with feather details and a train so lengthy it required a handler. He paired the look with elbow-length purple gloves, a matching wide-brimmed hat, fitted lilac pants and a black purse that read.
-
-          Porter was later spotted sipping a cocktail at the bar, and posed with two fans who came up for photos.
-
-        </p>
+        <div class="form">
+            <form method="POST" name="form_1" class="regForm">
+                <p><input type="text" id="name" placeholder="Full Name"></p>
+                <p><input type="text" id="email" placeholder="Email Id"></p>
+                <p>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+                <div id="ag">
+                    <p>Age</p>
+                    <input type="radio" name="age" id="age_1" value="abv">
+                    <label for="age">Above 18</label><br>
+                    <input type="radio" name="age" id="age_2" value="blw">
+                    <label for="age">Below 18</label><br>
+                </div>
+                <p><textarea placeholder="About" id="about"></textarea></p>
+                <p>
+                    <input name="terms" type="checkbox" id="terms" value="accept">
+                    <label for="terms">I accept terms and condition.</label>
+                </p>
+                <button class="btn-3" type="submit">Submit</button>
+            </form>
+            <h4 id="showon">Form Submitted Successfully.</h4>
+        </div>
     </div>
-    <div class="main">
-        <h1>Where is it ?</h1>
-        <p>At my house ! Inside the event, an eyewitness spotted Aisha Tyler, who was wearing flats, kissing and hugging pal Colton Haynes, who looked dapper in a Dior suit. Haynes' date for the evening was his actress friend, Ally Maki.
+    <div class="register">
+      <h1>Party Members</h1>
+      <h4 id="memberS">No Member Registered</h4>
+      <div class="tble">
+          <table id="regData" onload="fillit()">
+              <thead>
+                  <td>Name</td>
+                  <td >Email</td>
+                  <td>Gender</td>
+                  <td>Expectations</td>
+              </thead>
+              <tbody>
 
-          After turning heads at the Oscars, Billy Porter changed into a bright purple Christian Siriano off-the-shoulder top with feather details and a train so lengthy it required a handler. He paired the look with elbow-length purple gloves, a matching wide-brimmed hat, fitted lilac pants and a black purse that read.
-
-          Porter was later spotted sipping a cocktail at the bar, and posed with two fans who came up for photos.
+              </tbody>
+          </table>
+      </div>
     </div>
 </body>
+
+<script>
+
+var h = document.querySelector('.home');
+var s = document.querySelector('.signup');
+var r = document.querySelector('.register');
+var mes = document.querySelector('#showon');
+
+function home() {
+    h.style.display = "block";
+    s.style.display = "none";
+    r.style.display = "none";
+    mes.style.display = "none";
+}
+
+function sign() {
+    h.style.display = "none";
+    s.style.display = "block";
+    r.style.display = "none";
+    mes.style.display = "none";
+}
+
+function showregis() {
+    h.style.display = "none";
+    s.style.display = "none";
+    r.style.display = "block";
+    mes.style.display = "none";
+}
+
+</script>
 </html>
